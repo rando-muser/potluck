@@ -16,8 +16,8 @@ body {
 }
 
 h1 {
-  font-size: 100px;
-  color: black;;
+  font-size: clamp(10px, 100px, 200px);
+  color: black;
   padding: 50px;
   background-image: url(notebook.png);
   background-size: 100% 100%;
@@ -40,13 +40,30 @@ h1 {
  width: 20%;
 }
 
-li {
-  font-size: 30px;
-}
-
 ul {
   text-align: left;
   margin-left: 20%;
+}
+
+ol {
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#ul1 li {
+  font-size: 30px;
+}
+
+h2 {
+  background-color: #EDECB9;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+hr {
+  border: 3px dotted #EDECB9;
+  width: 70%;
 }
 
 .edu-au-vic-wa-nt-guides-ONE {
@@ -56,11 +73,20 @@ ul {
 }
 
 #submit {
-  font-size: 40px;
+  font-size: Clamp(10px, 40px, 100px);
   padding: 50px;
   border-radius: 100px;
   background-color: #EDECB9;
   box-shadow: 0 0 30px 30px #E1E237;
+  text-decoration: none;
+  color: #141A1D;
+}
+
+#makecode {
+  font-size: Clamp(10px, 30px, 50px);
+  padding: 20px;
+  border-radius: 100px;
+  background-color: #EDECB9;
   text-decoration: none;
   color: #141A1D;
 }
