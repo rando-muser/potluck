@@ -91,6 +91,15 @@ hr {
   color: #141A1D;
 }
 
+#makecode {
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 100px;
+  background-color: #EDECB9;
+  text-decoration: none;
+  color: #141A1D;
+}
+
 #overlay {
   position: fixed;
   top: 0;
